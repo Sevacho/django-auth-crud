@@ -146,4 +146,4 @@ def signin(request):
 
 @login_required
 def secreta(request):
-    return request(request, 'secreta.html')
+    return render(request, 'secreta.html')
