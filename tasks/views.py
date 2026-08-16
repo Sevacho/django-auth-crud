@@ -144,3 +144,5 @@ def signin(request):
             login(request, user)
             return redirect('tasks')
 
+def secreta(request):
+    return request(request, 'secreta.html')
